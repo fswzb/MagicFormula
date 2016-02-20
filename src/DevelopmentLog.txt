@@ -1,0 +1,42 @@
+************************
+Development log:
+
+Magic Formula
+2015.12.7
+   first version. only work for Shanghai market
+2015.12.11 V0.1.0
+   refactored the code and added class.
+   supported multi-thread.
+   using openpyxl instead of xlwt.
+2015.12.12 V0.1.5
+   added timing feature
+   polished threading
+   Be able to save all data to one worksheet. Easier sorting.
+
+2015.12.12 V0.1.6
+   added data structure for each stock item   
+   sorting within python and output txt or excel file?
+   added two kinds of IO: excel and txt
+   added timestamp to file and filename
+
+2015.12.12 V0.2.0
+   cleanup the code.
+   release.
+2015.12.23  V0.2.1
+   get BOLL percent and write to the txt/excel file
+2015.12.29
+    get ENE and write to text/excel file
+
+
+Smart Reader
+2015.12.19 
+   Analyser: two data files(txt), Diff and monitor Top50 change
+   Report margin: two data files(txt) and compute the margin 
+To do:
+   support for excel file?
+
+BOLL
+2015.12.23   
+   get and read history data 
+   Boll report
+todo: merge the feature to Magic Formula
